@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-sharp-string-manipulation", "c-sharp-string-manipulation\c-sharp-string-manipulation.csproj", "{F21CAF53-D2B7-4825-81E4-78716BD964EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F21CAF53-D2B7-4825-81E4-78716BD964EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F21CAF53-D2B7-4825-81E4-78716BD964EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F21CAF53-D2B7-4825-81E4-78716BD964EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F21CAF53-D2B7-4825-81E4-78716BD964EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {247EB1A1-C1D2-4CF3-8747-89EA4774A71F}
+	EndGlobalSection
+EndGlobal

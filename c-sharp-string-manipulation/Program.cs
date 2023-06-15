@@ -20,7 +20,7 @@ internal class Program
         WriteLine("enter string");
         string string3 = Convert.ToString(ReadLine());
         
-        string[] result=new string[3];
+        string[] result=new string[100];
         result=_reversSentence(string3);
         Write("the rever of "+ string3 +" is: ");
         for (int i = result.Length - 1; i >= 0; i--)
@@ -28,6 +28,18 @@ internal class Program
             Write(result[i] + ' ');
         }
        WriteLine();
+
+        WriteLine("*************************************************");
+        WriteLine("enter string");
+        string string4 = Convert.ToString(ReadLine());
+        WriteLine("enter target char to be replaced");
+        char targit = Convert.ToChar(ReadLine());
+        WriteLine("which cahr you want to  replac it with");
+        char replace = Convert.ToChar(ReadLine());
+
+        WriteLine(_replacementoFcharacter(string4, targit, replace));
+
+
 
 
     }
@@ -113,5 +125,25 @@ internal class Program
         return result;
 
     }
+
+    /*
+     * Problem 4: Replace Characters
+    Write a function that takes a string, a target character, 
+    and a replacement character as inputs. The function should 
+    replace all occurrences of the target character with the 
+    replacement character in the string. For example, if the 
+    input string is "Hello World", the target character is 'o',
+    and the replacement character is 'a', the function should return "Hella Warld".
+
+     
+     */
+
+    static string _replacementoFcharacter(string string4,char target,char replace)
+    {
+      
+        string totl = string4.Replace(target, replace);
+        return totl;
+    }
+
 
 }
